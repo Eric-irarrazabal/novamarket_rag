@@ -1,0 +1,29 @@
+Título: Disponibilidad simulada de productos de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-STO-01
+Fecha de corte de los datos: 2026-09-08
+Uso: Inventario ficticio y estático para un prototipo académico. No es stock en tiempo real.
+
+Código: NM-001
+Producto: Audífonos inalámbricos NovaSound
+Stock simulado: 12 unidades.
+Estado en el registro: Disponible.
+
+Código: NM-002
+Producto: Mouse inalámbrico NovaClick
+Stock simulado: 0 unidades.
+Estado en el registro: Agotado.
+
+Código: NM-003
+Producto: Teclado USB NovaType
+Stock simulado: 7 unidades.
+Estado en el registro: Disponible.
+
+Código: NM-004
+Producto: Parlante portátil NovaBeat
+Stock simulado: 5 unidades.
+Estado en el registro: Disponible.
+
+Las cantidades representan solamente el registro simulado de la fecha indicada. El agente debe comunicar esa condición al responder y no garantizar disponibilidad actual, reservar unidades ni descontar inventario.
+
+No existen fechas de reposición registradas para los productos agotados. Para confirmar disponibilidad actual o consultar reposición se requiere atención humana. Si la pregunta no identifica el producto, se necesita su nombre o código antes de informar una cantidad.

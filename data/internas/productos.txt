@@ -1,0 +1,35 @@
+Título: Catálogo de productos de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-PRO-01
+Fecha de elaboración: 2026-09-08
+Uso: Productos, características y precios ficticios para un prototipo académico. Los valores corresponden a este catálogo de prueba y no a una tienda real.
+
+Código: NM-001
+Producto: Audífonos inalámbricos NovaSound
+Categoría: Audio
+Características: Conexión Bluetooth 5.3, micrófono integrado y autonomía de hasta 20 horas por carga.
+Color: Negro.
+Precio simulado: $29.990 pesos chilenos, IVA incluido, sin despacho.
+
+Código: NM-002
+Producto: Mouse inalámbrico NovaClick
+Categoría: Accesorios de computación
+Características: Conexión mediante receptor USB-A, tres botones y sensibilidad de 1600 DPI. Utiliza una pila AA incluida.
+Color: Gris.
+Precio simulado: $12.990 pesos chilenos, IVA incluido, sin despacho.
+
+Código: NM-003
+Producto: Teclado USB NovaType
+Categoría: Accesorios de computación
+Características: Teclado de membrana en español con tecla Ñ, conexión USB-A por cable y sección numérica.
+Color: Negro.
+Precio simulado: $19.990 pesos chilenos, IVA incluido, sin despacho.
+
+Código: NM-004
+Producto: Parlante portátil NovaBeat
+Categoría: Audio
+Características: Conexión Bluetooth 5.0, potencia de 10 W y autonomía de hasta 8 horas por carga.
+Color: Azul.
+Precio simulado: $24.990 pesos chilenos, IVA incluido, sin despacho.
+
+La disponibilidad de cada código se registra en stock.txt. Las características o compatibilidades que no aparecen en este catálogo no están documentadas.

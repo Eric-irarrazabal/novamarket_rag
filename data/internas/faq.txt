@@ -1,0 +1,20 @@
+Título: Preguntas frecuentes de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-FAQ-01
+Fecha de elaboración: 2026-09-08
+Uso: Datos ficticios para un prototipo académico.
+
+Pregunta: ¿Puedo comprar sin crear una cuenta?
+Respuesta: Sí. NovaMarket permite comprar como invitado. Los datos necesarios para la compra se ingresan en el sitio web, no en el agente de consultas.
+
+Pregunta: ¿Puedo retirar mi compra en una tienda física?
+Respuesta: No. En este escenario NovaMarket vende por internet y ofrece entrega a domicilio, sin retiro en tienda.
+
+Pregunta: ¿Puedo cambiar mi dirección después de comprar?
+Respuesta: Debes solicitarlo al equipo de atención al cliente. La posibilidad de modificarla depende del estado del pedido y el agente no puede confirmar ni realizar el cambio.
+
+Pregunta: ¿Qué hago si recibí un producto equivocado?
+Respuesta: El caso necesita revisión del equipo de atención al cliente. El agente no puede autorizar un cambio ni programar un retiro.
+
+Pregunta: ¿Cuál es el horario de atención humana?
+Respuesta: El horario simulado es de lunes a viernes, de 09:00 a 18:00 horas de Chile continental, excepto festivos. Un aviso de derivación del prototipo no crea una solicitud ni garantiza atención inmediata.

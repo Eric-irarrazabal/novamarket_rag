@@ -1,0 +1,177 @@
+{
+  "modelo_embeddings": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "umbral_similitud": 0.43,
+  "numero_fragmentos": 25,
+  "casos": {
+    "A": {
+      "caso": "A",
+      "fecha_utc": "2026-09-11T17:37:04.913002+00:00",
+      "modo": "groq",
+      "modelo_configurado": "qwen/qwen3.6-27b",
+      "resultado": {
+        "consulta": "¿Cuánto demora un despacho?",
+        "consulta_recuperacion": "¿Cuánto demora un despacho?",
+        "estado": "RESPONDIDO",
+        "respuesta": "Hola. En NovaMarket, los plazos estimados de despacho son de 2 a 4 días hábiles para la Región Metropolitana y de 5 a 8 días hábiles para el resto de las regiones. Este conteo comienza el día hábil siguiente a la confirmación de tu pago, sin considerar sábados, domingos ni festivos.\n\nTen en cuenta que estos son plazos generales. Si necesitas conocer el estado exacto de un pedido específico, te recomendamos contactar a nuestro equipo de atención humana, ya que el agente no puede consultar detalles particulares de envíos.\n\n[INT-DES-01]",
+        "fuentes_recuperadas": [
+          {
+            "id": "INT-DES-01",
+            "titulo": "Política de despachos de NovaMarket",
+            "archivo": "internas/despachos.txt",
+            "tipo": "internas",
+            "url": "",
+            "similitud": 0.6306
+          },
+          {
+            "id": "INT-FAQ-01",
+            "titulo": "Preguntas frecuentes de NovaMarket",
+            "archivo": "internas/faq.txt",
+            "tipo": "internas",
+            "url": "",
+            "similitud": 0.4556
+          }
+        ],
+        "fuentes_citadas": [
+          "INT-DES-01"
+        ],
+        "contexto": "Título: Política de despachos de NovaMarket\nTipo de fuente: Interna simulada\nIdentificador: INT-DES-01\nFecha de elaboración: 2026-09-08\nUso: Datos ficticios para un prototipo académico.\n\nNovaMarket realiza despachos dentro de Chile. El plazo estimado es de 2 a 4 días hábiles para la Región Metropolitana y de 5 a 8 días hábiles para otras regiones. El plazo comienza el día hábil siguiente a la confirmación del pago. No se consideran sábados, domingos ni festivos.\n\nEl costo de despacho se informa antes de finalizar la compra y depende de la dirección de entrega.\n\nEstos plazos son generales. Para consultar el estado de un pedido específico, o si aparece entregado y el cliente no lo recibió, se requiere atención humana.\n\n---\n\nTítulo: Preguntas frecuentes de NovaMarket\nTipo de fuente: Interna simulada\nIdentificador: INT-FAQ-01\nFecha de elaboración: 2026-09-08\nUso: Datos ficticios para un prototipo académico.\n\nPregunta: ¿Puedo comprar sin crear una cuenta?\nRespuesta: Sí. NovaMarket permite comprar como invitado. Los datos necesarios para la compra se ingresan en el sitio web, no en el agente de consultas.\n\nPregunta: ¿Puedo retirar mi compra en una tienda física?\nRespuesta: No. En este escenario NovaMarket vende por internet y ofrece entrega a domicilio, sin retiro en tienda.\n\nPregunta: ¿Puedo cambiar mi dirección después de comprar?\nRespuesta: Debes solicitarlo al equipo de atención al cliente. La posibilidad de modificarla depende del estado del pedido y el agente no puede confirmar ni realizar el cambio.\n\nPregunta: ¿Qué hago si recibí un producto equivocado?\nRespuesta: El caso necesita revisión del equipo de atención al cliente. El agente no puede autorizar un cambio ni programar un retiro.\n\nPregunta: ¿Cuál es el horario de atención humana?\nRespuesta: El horario simulado es de lunes a viernes, de 09:00 a 18:00 horas de Chile continental, excepto festivos. Un aviso de derivación del prototipo no crea una solicitud ni garantiza atención inmediata.",
+        "intentos": 1,
+        "modelo": "qwen/qwen3.6-27b",
+        "tokens": {
+          "entrada": 860,
+          "salida": 125,
+          "total": 985
+        }
+      },
+      "estado_y_fuente_correctos": true,
+      "revision_humana_respuesta": "PENDIENTE"
+    },
+    "E": {
+      "caso": "E",
+      "fecha_utc": "2026-09-11T17:37:05.587343+00:00",
+      "modo": "groq",
+      "modelo_configurado": "qwen/qwen3.6-27b",
+      "resultado": {
+        "consulta": "¿Qué es la garantía legal?",
+        "consulta_recuperacion": "¿Qué es la garantía legal?",
+        "estado": "RESPONDIDO",
+        "respuesta": "La garantía legal protege al consumidor cuando un producto nuevo presenta defectos, le faltan piezas o no sirve para el uso previsto. Su plazo es de seis meses desde la compra, la cual puede acreditarse con boleta, factura u otros comprobantes de pago.\n\nDurante este periodo, el consumidor puede elegir entre la reparación gratuita, el cambio del producto o la devolución del dinero. Es importante destacar que esta garantía no aplica si el producto simplemente no gustó o no quedó la talla, ya que esos casos corresponden a devoluciones voluntarias por cambio de opinión.\n\nSi una empresa no respeta estos derechos, puedes presentar un reclamo ante SERNAC. Recuerda que una garantía voluntaria ofrecida por una tienda no elimina ni reemplaza esta protección legal.\n\n[INT-GAR-01, EXT-SER-01]",
+        "fuentes_recuperadas": [
+          {
+            "id": "INT-GAR-01",
+            "titulo": "Atención de solicitudes de garantía en NovaMarket",
+            "archivo": "internas/garantias.txt",
+            "tipo": "internas",
+            "url": "",
+            "similitud": 0.7053
+          },
+          {
+            "id": "EXT-SER-01",
+            "titulo": "Garantía legal de productos nuevos",
+            "archivo": "externas/sernac_garantia_legal.txt",
+            "tipo": "externas",
+            "url": "https://www.sernac.cl/portal/617/w3-propertyvalue-64818.html",
+            "similitud": 0.6482
+          },
+          {
+            "id": "INT-DEV-01",
+            "titulo": "Cambios y devoluciones voluntarias de NovaMarket",
+            "archivo": "internas/devoluciones.txt",
+            "tipo": "internas",
+            "url": "",
+            "similitud": 0.5104
+          }
+        ],
+        "fuentes_citadas": [
+          "INT-GAR-01",
+          "EXT-SER-01"
+        ],
+        "contexto": "Título: Atención de solicitudes de garantía en NovaMarket\nTipo de fuente: Interna simulada\nIdentificador: INT-GAR-01\nFecha de elaboración: 2026-09-08\nUso: Datos ficticios para un prototipo académico.\n\nTodos los productos del catálogo simulado de NovaMarket se venden como nuevos. Para informar una falla, el cliente debe contactar al equipo de atención al cliente e identificar el producto y la compra mediante su comprobante. Los antecedentes personales se gestionan con el equipo humano, no se incorporan a la base documental del agente.\n\nEl agente puede explicar el procedimiento general, pero no diagnosticar fallas, decidir si corresponde una garantía ni aprobar cambios, reparaciones o devoluciones. Un producto dañado, una garantía rechazada o una solicitud que requiere revisar antecedentes debe pasar a atención humana.\n\nLa explicación del derecho a garantía legal se obtiene del documento externo sernac_garantia_legal.txt. El documento de devoluciones voluntarias no reemplaza esa información ni establece condiciones para ejercer la garantía legal.\n\nEn estos datos no se ha registrado una garantía extendida ni una cobertura adicional del fabricante para un producto específico. No se debe atribuir una cobertura adicional sin contar con su documentación.\n\n---\n\nTítulo: Garantía legal de productos nuevos\nTipo de fuente: Externa real; resumen del equipo para el prototipo, con apoyo de IA\nIdentificador: EXT-SER-01\nInstitución: Servicio Nacional del Consumidor (SERNAC)\nTítulo de la página consultada: Garantía\nURL: https://www.sernac.cl/portal/617/w3-propertyvalue-64818.html\nFecha de consulta: 2026-09-08\nTratamiento: Paráfrasis de información pública; no es una transcripción literal ni una política de NovaMarket.\n\nLa garantía legal protege al consumidor cuando un producto nuevo presenta defectos, le faltan piezas o no sirve para el uso previsto, entre otras situaciones contempladas por la ley. Su plazo es de seis meses. El consumidor puede elegir reparación gratuita, cambio del producto o devolución del dinero.\n\nLa compra puede acreditarse con boleta, factura u otros respaldos, como comprobantes de pago. La garantía legal no corresponde solamente porque un producto no gustó o no quedó la talla. Una garantía voluntaria ofrecida por una empresa no elimina la garantía legal.\n\nSi la empresa no respeta la garantía, se puede presentar un reclamo ante SERNAC. Este resumen informa derechos generales y no determina el resultado de un caso particular.\n\nReferencia APA:\nServicio Nacional del Consumidor. (s. f.). Garantía. Recuperado el 8 de septiembre de 2026, de https://www.sernac.cl/portal/617/w3-propertyvalue-64818.html\n\n---\n\nTítulo: Cambios y devoluciones voluntarias de NovaMarket\nTipo de fuente: Interna simulada\nIdentificador: INT-DEV-01\nFecha de elaboración: 2026-09-08\nUso: Datos ficticios para un prototipo académico.\n\nComo beneficio comercial voluntario, NovaMarket permite solicitar un cambio o una devolución por cambio de opinión dentro de 30 días corridos desde la recepción del producto. Para este beneficio, el producto debe estar sin uso, con sus accesorios y embalaje original. Se debe contar con un comprobante que permita identificar la compra.\n\nLa solicitud se presenta al equipo de atención al cliente, que revisa los antecedentes y comunica los pasos para entregar el producto. El agente puede explicar el procedimiento, pero no aprobar solicitudes ni confirmar reembolsos. Este documento no establece un plazo de devolución del dinero ni un costo de retiro.\n\nEstas condiciones se refieren exclusivamente al beneficio voluntario por cambio de opinión; no limitan la garantía legal ni otros derechos aplicables, incluido el retracto. El plazo comercial de 30 días no debe presentarse como el plazo legal de retracto.\n\nSi el producto presenta una falla, llegó dañado o la devolución fue rechazada, se requiere atención humana para revisar el caso. Las consultas sobre garantía legal cuentan con una fuente externa específica de SERNAC.",
+        "intentos": 1,
+        "modelo": "qwen/qwen3.6-27b",
+        "tokens": {
+          "entrada": 1261,
+          "salida": 174,
+          "total": 1435
+        }
+      },
+      "estado_y_fuente_correctos": true,
+      "revision_humana_respuesta": "PENDIENTE"
+    },
+    "C": {
+      "caso": "C",
+      "fecha_utc": "2026-09-11T17:37:05.667345+00:00",
+      "modo": "sin_llm",
+      "modelo_configurado": "qwen/qwen3.6-27b",
+      "resultado": {
+        "consulta": "¿NovaMarket tiene un programa de puntos?",
+        "consulta_recuperacion": "¿NovaMarket tiene un programa de puntos?",
+        "estado": "SIN_INFORMACION",
+        "respuesta": "No tengo información suficiente para responder esta consulta. El caso necesita revisión de atención humana.",
+        "fuentes_recuperadas": [],
+        "fuentes_citadas": [],
+        "contexto": "",
+        "intentos": 0,
+        "modelo": null,
+        "tokens": null
+      },
+      "estado_y_fuente_correctos": true,
+      "revision_humana_respuesta": "PENDIENTE"
+    },
+    "B": {
+      "caso": "B",
+      "fecha_utc": "2026-09-11T17:37:06.414723+00:00",
+      "modo": "groq",
+      "modelo_configurado": "qwen/qwen3.6-27b",
+      "resultado": {
+        "consulta": "¿Cuándo debería llegar mi compra?",
+        "consulta_recuperacion": "¿Cuándo debería llegar mi compra?",
+        "estado": "RESPONDIDO",
+        "respuesta": "Hola. Gracias por escribirnos.\n\nLos plazos de despacho en NovaMarket son estimados y comienzan a contar desde el día hábil siguiente a la confirmación de tu pago. Para la Región Metropolitana, el tiempo estimado es de 2 a 4 días hábiles. Para el resto de las regiones de Chile, el plazo es de 5 a 8 días hábiles. Recuerda que no se consideran sábados, domingos ni días festivos.\n\nTen en cuenta que estos son plazos generales. Para conocer el estado exacto de tu pedido específico o resolver dudas sobre entregas, es necesario que un agente revise tu caso personalmente.\n\nQuedamos atentos a cualquier otra consulta que tengas.\n\n[INT-DES-01]",
+        "fuentes_recuperadas": [
+          {
+            "id": "INT-DES-01",
+            "titulo": "Política de despachos de NovaMarket",
+            "archivo": "internas/despachos.txt",
+            "tipo": "internas",
+            "url": "",
+            "similitud": 0.4636
+          }
+        ],
+        "fuentes_citadas": [
+          "INT-DES-01"
+        ],
+        "contexto": "Título: Política de despachos de NovaMarket\nTipo de fuente: Interna simulada\nIdentificador: INT-DES-01\nFecha de elaboración: 2026-09-08\nUso: Datos ficticios para un prototipo académico.\n\nNovaMarket realiza despachos dentro de Chile. El plazo estimado es de 2 a 4 días hábiles para la Región Metropolitana y de 5 a 8 días hábiles para otras regiones. El plazo comienza el día hábil siguiente a la confirmación del pago. No se consideran sábados, domingos ni festivos.\n\nEl costo de despacho se informa antes de finalizar la compra y depende de la dirección de entrega.\n\nEstos plazos son generales. Para consultar el estado de un pedido específico, o si aparece entregado y el cliente no lo recibió, se requiere atención humana.",
+        "intentos": 1,
+        "modelo": "qwen/qwen3.6-27b",
+        "tokens": {
+          "entrada": 543,
+          "salida": 152,
+          "total": 695
+        }
+      },
+      "estado_y_fuente_correctos": true,
+      "revision_humana_respuesta": "PENDIENTE"
+    },
+    "D": {
+      "caso": "D",
+      "fecha_utc": "2026-09-11T17:37:06.448697+00:00",
+      "modo": "sin_llm",
+      "modelo_configurado": "qwen/qwen3.6-27b",
+      "resultado": {
+        "consulta": "Me cobraron dos veces.",
+        "consulta_recuperacion": "Me cobraron dos veces.",
+        "estado": "DERIVAR",
+        "respuesta": "Esta consulta requiere revisar antecedentes con atención humana. Este prototipo muestra el aviso, pero no envía automáticamente el caso.",
+        "fuentes_recuperadas": [],
+        "fuentes_citadas": [],
+        "contexto": "",
+        "intentos": 0,
+        "modelo": null,
+        "tokens": null
+      },
+      "estado_y_fuente_correctos": true,
+      "revision_humana_respuesta": "PENDIENTE"
+    }
+  }
+}

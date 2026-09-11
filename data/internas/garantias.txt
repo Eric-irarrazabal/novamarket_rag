@@ -1,0 +1,13 @@
+Título: Atención de solicitudes de garantía en NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-GAR-01
+Fecha de elaboración: 2026-09-08
+Uso: Datos ficticios para un prototipo académico.
+
+Todos los productos del catálogo simulado de NovaMarket se venden como nuevos. Para informar una falla, el cliente debe contactar al equipo de atención al cliente e identificar el producto y la compra mediante su comprobante. Los antecedentes personales se gestionan con el equipo humano, no se incorporan a la base documental del agente.
+
+El agente puede explicar el procedimiento general, pero no diagnosticar fallas, decidir si corresponde una garantía ni aprobar cambios, reparaciones o devoluciones. Un producto dañado, una garantía rechazada o una solicitud que requiere revisar antecedentes debe pasar a atención humana.
+
+La explicación del derecho a garantía legal se obtiene del documento externo sernac_garantia_legal.txt. El documento de devoluciones voluntarias no reemplaza esa información ni establece condiciones para ejercer la garantía legal.
+
+En estos datos no se ha registrado una garantía extendida ni una cobertura adicional del fabricante para un producto específico. No se debe atribuir una cobertura adicional sin contar con su documentación.

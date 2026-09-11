@@ -1,0 +1,11 @@
+Título: Política de despachos de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-DES-01
+Fecha de elaboración: 2026-09-08
+Uso: Datos ficticios para un prototipo académico.
+
+NovaMarket realiza despachos dentro de Chile. El plazo estimado es de 2 a 4 días hábiles para la Región Metropolitana y de 5 a 8 días hábiles para otras regiones. El plazo comienza el día hábil siguiente a la confirmación del pago. No se consideran sábados, domingos ni festivos.
+
+El costo de despacho se informa antes de finalizar la compra y depende de la dirección de entrega.
+
+Estos plazos son generales. Para consultar el estado de un pedido específico, o si aparece entregado y el cliente no lo recibió, se requiere atención humana.

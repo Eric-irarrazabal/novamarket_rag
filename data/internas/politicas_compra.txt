@@ -1,0 +1,15 @@
+Título: Condiciones generales de compra de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-COM-01
+Fecha de elaboración: 2026-09-08
+Uso: Datos ficticios para un prototipo académico.
+
+NovaMarket comercializa productos nuevos a través de su sitio web. Para comprar, el cliente selecciona un producto, revisa su descripción, ingresa los datos de entrega en el sitio y elige un medio de pago disponible.
+
+Antes de confirmar la compra, el sitio muestra el precio de los productos, el costo del despacho y el total a pagar. Los precios se expresan en pesos chilenos e incluyen IVA. El despacho se cobra por separado según la dirección de entrega.
+
+Después de confirmar el pago, el sitio envía una confirmación al correo informado por el cliente. Este procedimiento describe la empresa simulada; el agente del prototipo no realiza compras ni envía correos.
+
+La solicitud de anulación de una compra, el cambio de los datos de un pedido o un problema con su confirmación requieren atención humana. El agente no modifica pedidos ni consulta información privada de clientes.
+
+Estas condiciones generales no reemplazan derechos legales. Este documento no desarrolla los plazos, requisitos o excepciones del retracto; si las fuentes disponibles no permiten responder una consulta sobre ese tema, corresponde informar la falta de antecedentes y solicitar revisión humana.

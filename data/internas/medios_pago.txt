@@ -1,0 +1,11 @@
+Título: Medios de pago de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-PAG-01
+Fecha de elaboración: 2026-09-08
+Uso: Datos ficticios para un prototipo académico.
+
+NovaMarket acepta tarjetas de débito y crédito en las compras realizadas en su sitio web. Los pagos se realizan en pesos chilenos. No se acepta efectivo, transferencia bancaria ni pago contra entrega en este escenario simulado.
+
+Las opciones de cuotas y sus posibles intereses se muestran antes de confirmar el pago y dependen de la tarjeta y del emisor. Este documento no establece un número de cuotas ni garantiza cuotas sin interés.
+
+Un cobro duplicado, un pago no reconocido o una solicitud de reembolso requieren atención humana. El agente no procesa pagos, verifica transacciones ni solicita números completos de tarjeta, códigos de seguridad, contraseñas o claves bancarias.

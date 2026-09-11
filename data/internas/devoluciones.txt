@@ -1,0 +1,13 @@
+Título: Cambios y devoluciones voluntarias de NovaMarket
+Tipo de fuente: Interna simulada
+Identificador: INT-DEV-01
+Fecha de elaboración: 2026-09-08
+Uso: Datos ficticios para un prototipo académico.
+
+Como beneficio comercial voluntario, NovaMarket permite solicitar un cambio o una devolución por cambio de opinión dentro de 30 días corridos desde la recepción del producto. Para este beneficio, el producto debe estar sin uso, con sus accesorios y embalaje original. Se debe contar con un comprobante que permita identificar la compra.
+
+La solicitud se presenta al equipo de atención al cliente, que revisa los antecedentes y comunica los pasos para entregar el producto. El agente puede explicar el procedimiento, pero no aprobar solicitudes ni confirmar reembolsos. Este documento no establece un plazo de devolución del dinero ni un costo de retiro.
+
+Estas condiciones se refieren exclusivamente al beneficio voluntario por cambio de opinión; no limitan la garantía legal ni otros derechos aplicables, incluido el retracto. El plazo comercial de 30 días no debe presentarse como el plazo legal de retracto.
+
+Si el producto presenta una falla, llegó dañado o la devolución fue rechazada, se requiere atención humana para revisar el caso. Las consultas sobre garantía legal cuentan con una fuente externa específica de SERNAC.
